@@ -21,10 +21,10 @@ public class Lab16Account {
     		 }
     	 
      }
-    	 public void setBalance(double Balance) {
+    	 public void Balance(double Balance) {
     	      this.balance=balance;
     	 }
-    	 public void setAccHolder(Lab16person AccHolder) {
+    	 public void PersonaccHolder( Lab16person kathy) {
     		 this.Personaccholder=Personaccholder;
     	 }
 	public static void main(String[] args) {
@@ -38,22 +38,22 @@ public class Lab16Account {
 		kathy.setage(35);
 		
 		Lab16Account smithAccount =new Lab16Account();
-		smithAccount.setBalance(2000);
-		smithAccount.setAccHolder(smith);
+		smithAccount.Balance(2000);
+		smithAccount.PersonaccHolder(smith);
 		
 		Lab16Account kathyAccount =new Lab16Account();
-		kathyAccount.setBalance(3000);
-		kathyAccount.setAccHolder(kathy);
+		kathyAccount.Balance(3000);
+		kathyAccount.PersonaccHolder(kathy);
 		
 		  smithAccount.deposit(2000);         
 	      kathyAccount.withdraw(2000);  
 
-	        // Display results
+	     
 	        System.out.println("Updated account details:");
 	        System.out.println(smithAccount);
 	        System.out.println(kathyAccount);
 	    }
-		
+			
 		}
 
 	
