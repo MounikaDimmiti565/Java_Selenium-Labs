@@ -29,29 +29,29 @@ package SeleniumPack;
 				
 				driver.findElement(By.id("id_gender1")).sendKeys(Keys.TAB);
 				
-				driver.findElement(By.id("customer_firstname")).sendKeys("aditya");
+				driver.findElement(By.id("customer_firstname")).sendKeys("mounika");
 				
 				driver.findElement(By.id("customer_firstname")).sendKeys(Keys.TAB);
 				
-				driver.findElement(By.id("customer_lastname")).sendKeys("Tayade");
+				driver.findElement(By.id("customer_lastname")).sendKeys("Dimmiti");
 				
 				driver.findElement(By.id("customer_lastname")).sendKeys(Keys.TAB);
 				
 				driver.findElement(By.id("email")).sendKeys(Keys.TAB);//password jump
 				
-				driver.findElement(By.id("passwd")).sendKeys("abcd1234");
+				driver.findElement(By.id("passwd")).sendKeys("monn1234");
 				
 				driver.findElement(By.id("passwd")).sendKeys(Keys.TAB);
 				
 				driver.findElement(By.id("days")).click();
 				
-				driver.findElement(By.id("days")).sendKeys("14");
+				driver.findElement(By.id("days")).sendKeys("20");
 				
 				driver.findElement(By.id("days")).sendKeys(Keys.TAB);
 				
 				driver.findElement(By.id("months")).click();
 				
-				driver.findElement(By.id("months")).sendKeys("November");
+				driver.findElement(By.id("months")).sendKeys("january");
 				
 				driver.findElement(By.id("months")).sendKeys(Keys.TAB);
 				
@@ -68,4 +68,5 @@ package SeleniumPack;
 			}
 		
 	}
+
 
